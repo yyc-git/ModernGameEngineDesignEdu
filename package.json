@@ -1,0 +1,11 @@
+{
+  "name": "modern-gameengine-design-edu",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "tsd": "latest",
+    "lerna": "^4.0.0"
+  }
+}
