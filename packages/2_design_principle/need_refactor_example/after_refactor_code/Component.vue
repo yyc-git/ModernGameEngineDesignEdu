@@ -4,6 +4,12 @@
     <button @click="createScene1()">创建场景1</button>
     <button @click="createScene2()">创建场景2</button>
     <button @click="sendScene2Data()">发送场景2数据</button>
+
+
+<%={
+UIManager.parse().forEach(render)
+}=%>
+    <!-- <button @click="">ss</button> -->
   </section>
 </template>
 

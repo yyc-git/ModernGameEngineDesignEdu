@@ -3,7 +3,7 @@ type scene = any;
 interface IRenderEngine {
     scene:{
         createScene:void => scene
-    }
+    },
     ...
 }
 
